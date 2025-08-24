@@ -1,0 +1,28 @@
+# IDE and OS-specific files
+.idea/
+.vscode/
+*.DS_Store
+*.suo
+*.user
+
+# Python virtual environment
+backend/.venv/
+
+# Node.js dependencies folder
+frontend/node_modules/
+
+# Frontend build output
+frontend/dist/
+frontend/build/
+
+# Docker build cache and data volumes
+.dockerignore
+docker-compose.override.yml
+neo4j_data/
+grafana_data/
+
+# Log files
+*.log
+
+# Local environment variables file - VERY IMPORTANT
+backend/.env
