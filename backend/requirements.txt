@@ -1,0 +1,76 @@
+fastapi
+uvicorn[standard]
+httpx
+beautifulsoup4
+readability-lxml
+python-dotenv
+neo4j
+faiss-cpu
+openai
+google-genai
+llama-cpp-python
+aioredis
+sqlalchemy
+pydantic
+requests
+langchain
+networkx
+python-multipart
+uvloop
+playwright
+spacy
+pytest
+click
+h11
+starlette
+anyio
+pydantic-core==2.33.2
+pydantic-settings==2.10.1
+typing_extensions
+typing_inspection
+sniffio
+lxml
+lxml_html_clean
+chardet
+idna
+readability-lxml
+faiss-cpu
+neo4j
+prometheus_client
+redis
+annotated_types
+torch
+torchvision
+torchaudio
+sentence-transformers
+transformers
+scikit-learn
+pillow
+async_timeout
+google-generativeai
+httpcore
+pyee
+greenlet
+huggingface_hub
+regex
+numpy
+safetensors
+scipy
+joblib
+threadpoolctl
+urllib3
+certifi
+tqdm
+pyyaml
+filelock
+packaging
+charset-normalizer==3.4.3
+
+
+# opentelemetry-api==1.36.0
+# opentelemetry-exporter-otlp-proto-common==1.36.0
+# opentelemetry-exporter-otlp-proto-grpc==1.36.0
+# opentelemetry-exporter-otlp-proto-http==1.36.0
+# opentelemetry-proto==1.36.0
+# opentelemetry-sdk==1.36.0
+# opentelemetry-semantic-conventions==0.57b0
