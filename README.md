@@ -1,4 +1,8 @@
-# WebGraph RAG - A Production-Ready RAG System
+# WebGraph RAG - A RAG System
+
+![status](https://img.shields.io/badge/status-in_development-yellow)
+
+⚠️ This project is under active development and is **not production-ready**.
 
 This repository provides a complete, production-ready implementation of a Retrieval-Augmented Generation (RAG) system. It is designed to crawl modern websites, build a knowledge graph, and serve a sophisticated chat interface.
 
@@ -107,3 +111,6 @@ Running this stack locally on macOS can be unstable due to low-level conflicts b
 *   **`socket hang up` or `ECONNREFUSED`:** The backend server is not running or is not reachable from the frontend. Ensure the backend is running (either via Docker or locally) and that your `.env` files are configured correctly.
 *   **`attempt to write a readonly database`:** A file permission issue with the vector store files. This is solved by using the `user: "${UID}:${GID}"` directive in the `docker-compose.yml` file. If it happens locally, you may need to manually `sudo chown your_username backend/faiss.*`.
 *   **Crawl finds 0 pages:** The target website is likely JavaScript-heavy or has strong anti-bot measures. The Playwright crawler is designed to handle this, but ensure your Docker image was built correctly.
+
+## Roadmap / Status
+This project is still in its early stages. Expect breaking changes.
