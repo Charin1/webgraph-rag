@@ -97,7 +97,7 @@ Running this stack locally on macOS can be unstable due to low-level conflicts b
 ## 3) Basic Usage
 
 1.  **Add a Source:** Navigate to the **Sources** page in the UI. Enter a URL, set your crawl limits, and click "Add Source". Watch the real-time progress as the site is ingested.
-2.  **Chat with your Source:** Navigate to the **Chat** page. Ask a question relevant to the content you just ingested (e.g., "What is HyperText?").
+2.  **Chat with your Source:** Navigate to the **Chat** page. Ask a question relevant to the content you just ingested.
 
 ---
 
